@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+body {
+    min-height: 100vh;
+}
+
+img {
+    height: 7.5vh;
+    width: auto;
+}
+
+.header-1 {
+    height: 15vh;
+    background-color: rgb(54, 87, 185);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.city {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 1vh;
+}
+
+.header-2 {
+    height: 18vh;
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5vh;
+}
+
+.title {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1vh;
+}
+
+.sub-title {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 4vh;
+    min-height: 55vh;
+    width: 40vh;
+    padding: 2vh;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px 0px rgba(0,0,0,0.1);
+}
+
+.bestOffer{
+    position: absolute;
+    top: -1.85vh;
+    padding: 1vh 3vh;
+    border-radius: 10px;
+    border: none;
+    background-color: #F8D313;
+    color: white;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1vh;
+    color: #968d8d;
+}
+
+.card-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-top: 2vh;
+    font-size: 1.2rem;
+}
+
+.card-title i {
+    font-size: 1.25rem;
+}
+
+.card-title p {
+    margin-left: 5px;
+}
+
+.card-speed {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.card-apps {
+    height: 17vh;
+}
+
+.card-apps-title {
+    margin-top: 2vh;
+    color: royalblue;
+    text-align: center;
+}
+
+.card-price {
+    text-align: center;
+    color: #706969;
+    margin-top: 2vh;
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+.card-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+}
+
+.btn {
+	box-shadow: 2px 2px 10px -1px #F9990A;
+	background-color:#F9990A;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:12px 85px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #F9990A;
+}
+
+.btn:hover {
+    background-color: #d68409;
+    box-shadow: 2px 2px 10px -1px #d68409;
+    text-shadow:0px 1px 0px #d68409;
+    cursor: pointer;
+
+}
+
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.more-details p{
+    text-align: center;
+    margin-top: 3vh;
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+
+.more-details:hover {
+    cursor: pointer;
+}
+
+.card-details {
+    display: none;
+}
+
+.speed-details {
+    margin-top: 1.5vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #706969;
+}
+
+.speed-details i {
+    font-size: 25px;
+}
+
+.downloadUpload {
+    margin-left: 1.5vh;
+}
+
+.downloadUpload h4 {
+    margin-bottom: .5vh;
+    font-size: 1.1rem;
+}
+
+.downloadUpload h5 {
+    font-size: 1rem;
+}
+
+.apps-details {
+    margin-top: 1.5vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #706969;
+}
+
+.apps-details i {
+    font-size: 25px;
+}
+
+.listApps {
+    margin-left: 1.8vh;
+}
+
+.listApps h4{
+    margin-bottom: .5vh;
+    font-size: 1.1rem;
+}
+
+.listApps a {
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+}
+
+.seeMore {
+    color: royalblue;
+}
+
+.seeMore:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 430px) {
+	.title {
+        font-size: 1.5rem;
+    }
+
+    .sub-title {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+	.btn {
+        padding: 1vh 8vh;
+    }
+    .card-price {
+        font-size: 1.5rem;
+    }
+}
