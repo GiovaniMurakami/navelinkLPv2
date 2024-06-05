@@ -65,7 +65,7 @@ img {
 
 .card {
     margin: 4vh;
-    min-height: 50vh;
+    min-height: 50%;
     width: 40vh;
     padding: 2vh;
     position: relative;
@@ -75,14 +75,14 @@ img {
 
 .bestOffer{
     position: absolute;
-    top: -1.85vh;
-    padding: 1vh 3vh;
+    top: -3.5%;
+    padding: 3% 5%;
     border-radius: 10px;
     border: none;
     background-color: #F8D313;
     color: white;
     font-weight: 900;
-    font-size: 1.2rem;
+    font-size: 100%;
 }
 
 .card-header {
@@ -99,7 +99,8 @@ img {
     align-items: center;
     justify-content: space-between;
     font-weight: bold;
-    margin-top: 2.5vh;
+    text-align: center;
+    margin-top: 5%;
     font-size: 1rem;
 }
 
@@ -114,10 +115,17 @@ img {
 .card-speed {
     font-weight: bold;
     font-size: 3rem;
+    text-align: center;
 }
 
 .card-apps {
     height: 17vh;
+}
+
+.card-apps-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-apps-title {
@@ -134,8 +142,12 @@ img {
 }
 
 .appLogo {
-    width: 17vh;
+    width: 45%;
     height: auto;
+}
+
+.card-benefits {
+    text-align: center;
 }
 
 .card-price {
@@ -157,13 +169,11 @@ img {
 	box-shadow: 2px 2px 10px -1px #302f2e;
 	background-color:#F9990A;
 	border-radius:10px;
-	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Arial;
-	font-size:20px;
+	font-size: 100%;
 	font-weight:bold;
-	padding:12px 85px;
+	padding: 3% 25%;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #F9990A;
 }
