@@ -97,8 +97,8 @@ img {
     align-items: center;
     justify-content: space-between;
     font-weight: bold;
-    margin-top: 2vh;
-    font-size: 1.2rem;
+    margin-top: 2.5vh;
+    font-size: 1rem;
 }
 
 .card-title i {
@@ -111,7 +111,7 @@ img {
 
 .card-speed {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .card-apps {
@@ -119,7 +119,7 @@ img {
 }
 
 .card-apps-title {
-    margin-top: 2vh;
+    margin-top: 1.5vh;
     color: royalblue;
     text-align: center;
 }
