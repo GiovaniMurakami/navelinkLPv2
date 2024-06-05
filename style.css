@@ -286,3 +286,10 @@ img {
         width: 55vh;
     }
 }
+
+@media screen and (max-width: 1280px) {
+	.card-price h2 {
+        font-size: 2rem;
+    }
+}
+
