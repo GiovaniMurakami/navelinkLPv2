@@ -234,12 +234,12 @@ img {
 }
 
 .listApps {
-    margin-left: 1.8vh;
+    margin-left: 1.5vh;
 }
 
 .listApps h4{
     margin-bottom: .5vh;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 .listApps a {
@@ -256,6 +256,13 @@ img {
 
 .seeMore:hover {
     cursor: pointer;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
 }
 
 @media screen and (max-width: 430px) {
