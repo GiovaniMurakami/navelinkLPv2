@@ -185,7 +185,7 @@ img {
 .speed-details {
     margin-top: 1.5vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     color: #706969;
 }
@@ -210,7 +210,7 @@ img {
 .apps-details {
     margin-top: 1.5vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     color: #706969;
 }
