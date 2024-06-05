@@ -244,13 +244,13 @@ img {
     cursor: pointer;
 }
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 430px) {
 	.title {
-        font-size: 1.5rem;
+        font-size: 1.35rem;
     }
 
     .sub-title {
-        font-size: 1.25rem;
+        font-size: 1.15rem;
     }
 }
 
@@ -259,7 +259,7 @@ img {
         padding: 1vh 8vh;
     }
     .card-price {
-        font-size: 1.5rem;
+        font-size: 1.75rem;
     }
 
     .card {
