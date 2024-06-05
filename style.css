@@ -124,6 +124,18 @@ img {
     text-align: center;
 }
 
+.apps-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vh;
+}
+
+.appLogo {
+    width: 15vh;
+    height: auto;
+}
+
 .card-price {
     text-align: center;
     color: #706969;
