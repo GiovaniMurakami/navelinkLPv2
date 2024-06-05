@@ -65,7 +65,7 @@ img {
 
 .card {
     margin: 4vh;
-    min-height: 55vh;
+    min-height: 50vh;
     width: 40vh;
     padding: 2vh;
     position: relative;
@@ -121,7 +121,7 @@ img {
 }
 
 .card-apps-title {
-    margin-top: 1.5vh;
+    margin-top: 2vh;
     color: royalblue;
     text-align: center;
 }
@@ -130,7 +130,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 3vh;
+    margin-top: 2vh;
 }
 
 .appLogo {
