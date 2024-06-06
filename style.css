@@ -7,7 +7,7 @@
     font-family: "League Spartan", Verdana, Geneva, Tahoma, sans-serif
 }
 
-img {
+.header-1 img {
     height: 7.5vh;
     width: auto;
 }
@@ -61,11 +61,12 @@ img {
 
 .card {
     margin: 4vh;
+    background-color: royalblue;
     min-height: 50%;
     width: 40vh;
-    padding: 2vh;
     position: relative;
     border-radius: 10px;
+    border: none;
     box-shadow: 10px 10px 50px 0px rgba(0,0,0,0.1);
 }
 
@@ -88,7 +89,8 @@ img {
     align-items: center;
     flex-direction: column;
     gap: 1vh;
-    color: #968d8d;
+    margin: .5vh;
+    color: white;
 }
 
 .card-title {
@@ -97,7 +99,7 @@ img {
     justify-content: space-between;
     font-weight: bold;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 7%;
     font-size: 1rem;
 }
 
@@ -115,27 +117,16 @@ img {
     text-align: center;
 }
 
-.card-apps {
-    height: 17vh;
-}
-
-.card-apps-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.card-apps-title {
-    margin-top: 2vh;
-    color: royalblue;
-    text-align: center;
+.card-apps{
+    margin:2vh 0;
 }
 
 .apps-img-container {
     display: flex;
+    width: 100%;
+    background-color: white;
     align-items: center;
     justify-content: center;
-    margin-top: 2vh;
 }
 
 .appLogo {
@@ -149,7 +140,7 @@ img {
 
 .card-price {
     text-align: center;
-    color: #706969;
+    color: white;
     font-weight: bold;
     font-size: 1.75rem;
 }
@@ -172,6 +163,7 @@ img {
 	padding: 3% 25%;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #F9990A;
+    margin-bottom: 2vh;
 }
 
 .btn:hover {
