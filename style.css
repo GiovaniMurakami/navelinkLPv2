@@ -339,6 +339,10 @@
         padding: 4px;
         width: 70%;
     }
+
+    .card-button {
+        margin: 1vh;
+    }
 }
 
 @media only screen and (max-device-width: 700px) and (orientation: landscape) {
