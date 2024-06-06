@@ -149,6 +149,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin-top: 3vh;
 }
 
@@ -160,6 +161,7 @@
 	color:#ffffff;
 	font-size: 100%;
 	font-weight:bold;
+    text-align: center;
 	padding: 3% 25%;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #F9990A;
