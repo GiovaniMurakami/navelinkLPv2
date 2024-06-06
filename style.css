@@ -344,6 +344,14 @@ img {
     .card-speed {
         font-size: 2rem;
     }
+
+    .bestOffer {
+        left: 17%;
+        padding: 0;
+        text-align: center;
+        padding: 4px;
+        width: 70%;
+    }
 }
 
 @media only screen and (max-device-width: 700px) and (orientation: landscape) {
