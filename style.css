@@ -7,10 +7,6 @@
     font-family: "League Spartan", Verdana, Geneva, Tahoma, sans-serif
 }
 
-body {
-    min-height: 100vh;
-}
-
 img {
     height: 7.5vh;
     width: auto;
@@ -275,7 +271,7 @@ img {
     flex-direction: column;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 600px) {
 	.title {
         font-size: 1.35rem;
     }
@@ -291,10 +287,7 @@ img {
     .appLogo {
         width: 15vh;
     }
-}
-
-@media screen and (max-width: 400px) {
-	.btn {
+    .btn {
         padding: 1vh 8vh;
     }
     .card-price {
@@ -306,8 +299,52 @@ img {
     }
 }
 
-@media screen and (max-height: 760px) {
-    .card-price h2 {
+@media only screen and (max-device-width: 932px) and (orientation: landscape) {
+    .title {
+        font-size: 1.8rem;
+    }
+    .sub-title {
+        font-size: 1.3rem;
+    }
+
+    .city {
+        font-size: 1.2rem;
+    }
+
+    .card-price {
+        font-size: 1rem;
+    }
+
+    .bestOffer {
+        font-size: 0.8rem;
+    }
+
+    .apps-img-container {
+        margin-top: 0;
+    }
+    .appLogo {
+        margin-bottom: 2vh;
+    }
+
+    hr {
+        display: none;
+    }
+    .card-speed {
         font-size: 2rem;
+    }
+}
+
+@media only screen and (max-device-width: 700px) and (orientation: landscape) {
+    .card-price {
+        font-size: 0.8rem;
+    }
+    .card-speed {
+        font-size: 1.5rem;
+    }
+    .card-title {
+        font-size: 1rem;
+    }
+    .card-benefits {
+        font-size: 1rem;
     }
 }
