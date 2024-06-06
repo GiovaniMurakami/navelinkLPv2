@@ -314,6 +314,10 @@
         font-size: 1.2rem;
     }
 
+    .card-title {
+        font-size: 0.7rem;
+    }
+
     .card-price {
         font-size: 0.9rem;
     }
