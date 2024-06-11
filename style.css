@@ -268,11 +268,11 @@
 
 @media screen and (max-width: 600px) {
 	.title {
-        font-size: 1.35rem;
+        font-size: 2rem;
     }
 
     .sub-title {
-        font-size: 1rem;
+        font-size: 1.25rem;
     }
 
     .header-2 {
@@ -302,29 +302,9 @@
     }
 }
 
-@media only screen and (max-device-width: 932px) and (orientation: landscape) {
-    .title {
-        font-size: 1.8rem;
-    }
-
-    .sub-title {
-        font-size: 1.3rem;
-    }
-
-    .city {
-        font-size: 1.2rem;
-    }
-
-    .card-title {
-        font-size: 0.7rem;
-    }
-
-    .card-price {
-        font-size: 0.9rem;
-    }
-
-    .bestOffer {
-        font-size: 0.8rem;
+@media only screen and (max-device-width: 933px) and (orientation: landscape) {
+    .title, .sub-title, .city, .card-title, .bestOffer, .card-button, .card-price{
+        font-size: 70%;
     }
 
     .apps-img-container {
@@ -346,23 +326,18 @@
 
     .card-button {
         margin: 1vh;
-        font-size: 0.7rem;
     }
+    
+
 }
 
 @media only screen and (max-device-width: 700px) and (orientation: landscape) {
-    .card-price {
-        font-size: 0.8rem;
-    }
-
-    .card-speed {
-        font-size: 1.5rem;
-    }
-
     .card-title {
         font-size: 1rem;
     }
-
+    .card-speed {
+        font-size: 1.7rem;
+    }
     .card-benefits {
         font-size: 1rem;
     }
