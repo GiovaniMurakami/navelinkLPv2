@@ -72,9 +72,8 @@
 
 .bestOffer{
     position: absolute;
-    left: 50%; 
-    top: -5%;
-    transform: translateX(-50%);
+    top: -4%;
+    right: 29%;
     padding: 3% 5%;
     border-radius: 10px;
     border: none;
