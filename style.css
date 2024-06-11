@@ -282,9 +282,11 @@
     .appLogo {
         width: 15vh;
     }
+
     .btn {
         padding: 1vh 8vh;
     }
+
     .card-price {
         font-size: 1.5rem;
     }
@@ -314,7 +316,6 @@
     .sub-title {
         font-size: 1.5rem;
     }
-
 
     .apps-img-container {
         margin-top: 0;
