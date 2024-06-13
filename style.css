@@ -347,7 +347,7 @@
     }
 }
 
-@media only screen and (max-device-width: 933px) and (max-device-height: 500px) and (orientation: landscape) {
+@media only screen and (max-device-width: 933px) and (max-device-height: 500px) {
     .title,
     .title-2,
     .city,
