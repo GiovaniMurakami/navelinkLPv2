@@ -1,10 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
 
-*{
+@font-face {
+    font-family: "Rubik";
+    src: url("./assets/RubikOne-Regular.ttf") format("truetype");
+}
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "League Spartan", Verdana, Geneva, Tahoma, sans-serif
+    font-family: "League Spartan";
 }
 
 .header-1 img {
@@ -14,73 +19,121 @@
 
 .header-1 {
     height: 18vh;
-    background-color: rgb(54, 87, 185);
+    background-color: royalblue;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.logo {
+    margin-top: 2.5vh;
 }
 
 .city {
     font-size: 1.5rem;
     font-weight: bold;
     color: white;
-    margin-bottom: 1vh;
+    margin-bottom: 2vh;
 }
 
 .header-2 {
-    height: 20vh;
-    background-color: royalblue;
+    height: 35vh;
+    background-color: rgb(54, 87, 185);
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    padding: 1.5vh;
+    padding-top: 3vh;
+}
+
+.rotate {
+    rotate: -0.7deg;
+}
+
+.main {
+    position: relative;
 }
 
 .title {
     color: white;
-    font-size: 3rem;
-    font-weight: bold;
-    margin-bottom: 1vh;
+    margin: -5px;
+    font-size: 4rem;
+    font-weight: 500;
+    text-shadow: -5px 1px 5px rgba(32, 27, 27, 0.25);
+    font-family: "Rubik";
 }
 
-.sub-title {
-    color: white;
-    font-size: 1.5rem;
-    font-weight: bold;
+.title-2 {
+    color: rgb(43, 205, 255);
+    font-size: 2.3em;
+    font-weight: 600;
+    text-shadow: -5px 1px 5px rgba(32, 27, 27, 0.2);
+}
+
+.speed-effect {
+    text-shadow: -2px 0px 2px rgba(220, 220, 220, 0.1),
+        -4px 0px 2px rgba(220, 220, 220, 0.22),
+        -6px 0px 2px rgba(220, 220, 220, 0.21),
+        -8px 0px 2px rgba(220, 220, 220, 0.2),
+        -10px 0px 2px rgba(220, 220, 220, 0.19),
+        -12px 0px 2px rgba(220, 220, 220, 0.18),
+        -14px 0px 2px rgba(220, 220, 220, 0.17),
+        -16px 0px 2px rgba(220, 220, 220, 0.15),
+        -18px 0px 2px rgba(220, 220, 220, 0.14),
+        -20px 0px 2px rgba(220, 220, 220, 0.13),
+        -22px 0px 2px rgba(220, 220, 220, 0.12),
+        -24px 0px 2px rgba(220, 220, 220, 0.11),
+        -26px 0px 2px rgba(220, 220, 220, 0.1),
+        -28px 0px 2px rgba(220, 220, 220, 0.09),
+        -30px 0px 2px rgba(220, 220, 220, 0.08),
+        -32px 0px 2px rgba(220, 220, 220, 0.07),
+        -34px 0px 2px rgba(220, 220, 220, 0.06),
+        -36px 0px 2px rgba(220, 220, 220, 0.03),
+        -48px 0px 2px rgba(220, 220, 220, 0.02),
+        -42px 0px 2px rgba(220, 220, 220, 0.02),
+        -44px 0px 2px rgba(220, 220, 220, 0.01),
+        -46px 0px 2px rgba(220, 220, 220, 0.01),
+        -48px 0px 2px rgba(220, 220, 220, 0.01),
+        -50px 0px 2px rgba(220, 220, 220, 0.01);
 }
 
 .card-container {
+    position: relative;
+    top: -15vh;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
 .card {
     margin: 4vh;
-    background-color: royalblue;
+    background-color: white;
     min-height: 50%;
     width: 40vh;
     position: relative;
     border-radius: 10px;
     border: none;
-    box-shadow: 10px 10px 50px 0px rgba(0,0,0,0.1);
+    box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.1);
 }
 
-.bestOffer{
+.bestOffer {
     position: absolute;
-    left: 50%; 
+    left: 50%;
+    width: 100%;
+    height: 10%;
+    text-align: center;
     top: -5%;
     transform: translateX(-50%);
     padding: 3% 5%;
-    border-radius: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     border: none;
-    background-color: #F8D313;
+    background-color: #f8d313;
     color: white;
-    font-weight: 900;
+    font-weight: bold;
     font-size: 100%;
 }
 
@@ -90,36 +143,19 @@
     align-items: center;
     flex-direction: column;
     gap: 1vh;
-    margin: .5vh;
-    color: white;
-}
-
-.card-title {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 7%;
-    font-size: 1rem;
-}
-
-.card-title i {
-    font-size: 1.25rem;
-}
-
-.card-title p {
-    margin-left: 5px;
+    margin: 0.5vh;
+    color: #706969;
 }
 
 .card-speed {
-    font-weight: bold;
+    font-weight: 900;
     font-size: 3rem;
     text-align: center;
+    margin-top: 7%;
 }
 
-.card-apps{
-    margin:2vh 0;
+.card-apps {
+    margin: 2vh 0;
 }
 
 .apps-img-container {
@@ -141,7 +177,7 @@
 
 .card-price {
     text-align: center;
-    color: white;
+    color: #706969;
     font-weight: bold;
     font-size: 1.75rem;
 }
@@ -155,34 +191,33 @@
 }
 
 .btn {
-	box-shadow: 2px 2px 10px -1px #302f2e;
-	background-color:#F9990A;
-	border-radius:10px;
-	cursor:pointer;
-	color:#ffffff;
-	font-size: 100%;
-	font-weight:bold;
+    box-shadow: 2px 2px 10px -1px #302f2e;
+    background-color: #f9990a;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 100%;
+    font-weight: bold;
     text-align: center;
-	padding: 3% 25%;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #F9990A;
+    padding: 3% 25%;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #f9990a;
     margin-bottom: 2vh;
 }
 
 .btn:hover {
     background-color: #d68409;
     box-shadow: 2px 2px 10px -1px #d68409;
-    text-shadow:0px 1px 0px #d68409;
+    text-shadow: 0px 1px 0px #d68409;
     cursor: pointer;
-
 }
 
 .btn:active {
-	position:relative;
-	top:1px;
+    position: relative;
+    top: 1px;
 }
 
-.more-details p{
+.more-details p {
     text-align: center;
     margin-top: 3vh;
     text-decoration: underline;
@@ -214,7 +249,7 @@
 }
 
 .downloadUpload h4 {
-    margin-bottom: .5vh;
+    margin-bottom: 0.5vh;
     font-size: 0.9rem;
 }
 
@@ -238,8 +273,8 @@
     margin-left: 1.5vh;
 }
 
-.listApps h4{
-    margin-bottom: .5vh;
+.listApps h4 {
+    margin-bottom: 0.5vh;
     font-size: 1rem;
 }
 
@@ -266,33 +301,19 @@
     flex-direction: column;
 }
 
-@media screen and (max-width: 600px) {
-	.title {
-        font-size: 2rem;
+@media screen and (max-width: 900px) {
+    .title {
+        font-size: 240%;
     }
-
-    .sub-title {
-        font-size: 1rem;
+    .title-2 {
+        font-size: 180%;
     }
-
-    .header-2 {
-        height: 18vh;
+    .card-speed {
+        margin-top: 3vh;
     }
-
-    .appLogo {
-        width: 15vh;
-    }
-
-    .btn {
-        padding: 1vh 8vh;
-    }
-
-    .card-price {
-        font-size: 1.5rem;
-    }
-
-    .card {
-        width: 55vh;
+    .card-container {
+        top: -22vh;
+        padding: 2vh;
     }
 
     .card:nth-child(1) {
@@ -304,51 +325,57 @@
     }
 }
 
-@media only screen and (max-device-width: 933px) and (orientation: landscape) {
-    .title, .sub-title, .city, .card-title, .bestOffer, .card-button, .card-price{
-        font-size: 70%;
+@media screen and (max-height: 750px) {
+    .card-container {
+        top: -18vh;
     }
-
-    .title {
-        font-size: 2.25rem;
+    .card-price {
+        font-size: 150%;
     }
-
-    .sub-title {
-        font-size: 1.5rem;
-    }
-
-    .apps-img-container {
-        margin-top: 0;
-    }
-
-    .appLogo {
-        margin-bottom: 2vh;
-    }
-
-    .card-speed {
-        font-size: 2rem;
-    }
-
-    .bestOffer {
-        text-align: center;
-        width: 70%;
-    }
-
-    .card-button {
-        margin: 1vh;
-    }
-    
-
 }
 
-@media only screen and (max-device-width: 700px) and (orientation: landscape) {
-    .card-title {
-        font-size: 1rem;
+@media screen and (min-width: 900px) and (min-height: 720px) and (max-width: 1366px) {
+    .title:nth-child(1) {
+        margin-top: 1vh;
     }
+    .card-speed {
+        margin-top: 4vh;
+    }
+    .card-container {
+        margin-top: 6%;
+        top: -130px;
+    }
+}
+
+@media only screen and (max-device-width: 933px) and (max-device-height: 450px) and (orientation: landscape) {
+    .title,
+    .title-2,
+    .city,
+    .card-title,
+    .card-button {
+        font-size: 140%;
+    }
+
+    .card-price {
+        font-size: 90%;
+    }
+
     .card-speed {
         font-size: 1.7rem;
     }
-    .card-benefits {
-        font-size: 1rem;
+
+    .bestOffer {
+        font-size: 0.8rem;
+    }
+    .card-button {
+        margin: 1vh;
+        font-size: 60%;
+    }
+    .card:nth-child(2) {
+        order: 2;
+    }
+
+    .card:nth-child(3) {
+        order: 1;
     }
 }
