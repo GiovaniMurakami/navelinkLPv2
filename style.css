@@ -303,10 +303,10 @@
 
 @media screen and (max-width: 900px) {
     .title {
-        font-size: 240%;
+        font-size: 220%;
     }
     .title-2 {
-        font-size: 180%;
+        font-size: 160%;
     }
     .card-speed {
         margin-top: 3vh;
@@ -347,7 +347,7 @@
     }
 }
 
-@media only screen and (max-device-width: 933px) and (max-device-height: 500px) {
+@media only screen and (max-width: 933px) and (max-height: 500px) {
     .title,
     .title-2,
     .city,
