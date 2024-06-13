@@ -303,10 +303,10 @@
 
 @media screen and (max-width: 900px) {
     .title {
-        font-size: 220%;
+        font-size: 240%;
     }
     .title-2 {
-        font-size: 160%;
+        font-size: 180%;
     }
     .card-speed {
         margin-top: 3vh;
