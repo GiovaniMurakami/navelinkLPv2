@@ -310,6 +310,7 @@
     }
     .card-speed {
         margin-top: 3vh;
+        font-size: 250%;
     }
     .card-container {
         top: -22vh;
