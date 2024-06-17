@@ -294,7 +294,7 @@ small {
 
 @media screen and (max-height: 700px) and (max-width: 400px) {
     .title {
-        font-size: 240%;
+        font-size: 220%;
     }
     .title-2 {
         font-size: 180%;
@@ -315,7 +315,7 @@ small {
 
 @media screen and (max-width: 900px) and (min-height: 900px) {
     .title {
-        font-size: 220%;
+        font-size: 240%;
     }
     .title-2 {
         font-size: 180%;
