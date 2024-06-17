@@ -19,7 +19,7 @@
 
 .header-1 {
     height: 18vh;
-    background-color: royalblue;
+    background: linear-gradient(to right, rgb(47, 76, 163), #2d539b);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,10 +95,18 @@
         -36px 0px 2px rgba(220, 220, 220, 0.03),
         -48px 0px 2px rgba(220, 220, 220, 0.02),
         -42px 0px 2px rgba(220, 220, 220, 0.02),
-        -44px 0px 2px rgba(220, 220, 220, 0.01),
-        -46px 0px 2px rgba(220, 220, 220, 0.01),
-        -48px 0px 2px rgba(220, 220, 220, 0.01),
-        -50px 0px 2px rgba(220, 220, 220, 0.01);
+        -44px 0px 2px rgba(220, 220, 220, 0.019),
+        -46px 0px 2px rgba(220, 220, 220, 0.018),
+        -48px 0px 2px rgba(220, 220, 220, 0.017),
+        -50px 0px 2px rgba(220, 220, 220, 0.016),
+        -50px 0px 2px rgba(220, 220, 220, 0.015),
+        -52px 0px 2px rgba(220, 220, 220, 0.014),
+        -54px 0px 2px rgba(220, 220, 220, 0.013),
+        -56px 0px 2px rgba(220, 220, 220, 0.012),
+        -58px 0px 2px rgba(220, 220, 220, 0.011),
+        -60px 0px 2px rgba(220, 220, 220, 0.01),
+        -62px 0px 2px rgba(220, 220, 220, 0.01),
+        -64px 0px 2px rgba(220, 220, 220, 0.01);
 }
 
 .card-container {
@@ -106,30 +114,64 @@
     top: -15vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+}
+
+.lines {
+    position: relative;
+    font-size: 150%;
+    color: #a59999;
+}
+
+.lines:before {
+    content: "";
+    display: block;
+    width: 13vh;
+    height: 2px;
+    position: absolute;
+    background: #a59999;
+    left: 3.5vh;
+    top: 45%;
+}
+
+.lines::after {
+    content: "";
+    display: block;
+    width: 13vh;
+    height: 2px;
+    position: absolute;
+    background: #a59999;
+    right: 3.5vh;
+    top: 45%;
 }
 
 .card {
     margin: 4vh;
     background-color: white;
     min-height: 50%;
-    width: 49vh;
-    position: relative;
+    width: 50vh;
     border-radius: 10px;
-    border: none;
+    position: relative;
     box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.1);
 }
 
 .bestOffer {
     position: absolute;
-    left: 50%;
     width: 100%;
-    height: 10%;
+    height: 5vh;
+    top: -2vh;
     text-align: center;
-    top: -5%;
-    transform: translateX(-50%);
-    padding: 3% 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border: none;
@@ -144,8 +186,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 1vh;
-    margin: 0.5vh;
+    margin: 1vh;
     color: #706969;
 }
 
@@ -153,11 +194,7 @@
     font-weight: 900;
     font-size: 3rem;
     text-align: center;
-    margin-top: 7%;
-}
-
-.card-apps {
-    margin: 2vh 0;
+    margin-top: 10%;
 }
 
 .apps-img-container {
@@ -175,6 +212,7 @@
 
 .card-benefits {
     text-align: center;
+    margin-top: 1vh;
 }
 
 .card-price {
@@ -221,7 +259,7 @@
 
 .more-details p {
     text-align: center;
-    margin-top: 3vh;
+    margin: 2vh 0;
     text-decoration: underline;
     font-size: 1rem;
 }
@@ -232,75 +270,19 @@
 
 .card-details {
     display: none;
-}
-
-.speed-details {
-    margin-top: 1.5vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #706969;
-}
-
-.speed-details i {
-    font-size: 25px;
-}
-
-.downloadUpload {
-    margin-left: 1.5vh;
-}
-
-.downloadUpload h4 {
-    margin-bottom: 0.5vh;
-    font-size: 0.9rem;
-}
-
-.downloadUpload h5 {
-    font-size: 0.8rem;
+    padding: 2vh;
 }
 
 .apps-details {
-    margin-top: 1.5vh;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    margin-left: 27%;
     color: #706969;
 }
 
-.apps-details i {
-    font-size: 25px;
-}
-
-.listApps {
-    margin-left: 1.5vh;
-}
-
-.listApps h4 {
-    margin-bottom: 0.5vh;
-    font-size: 1rem;
-}
-
-.listApps a {
-    font-size: 1rem;
-    text-align: center;
-    text-decoration: none;
-    color: inherit;
-    text-align: center;
-}
-
-.seeMore {
-    color: royalblue;
-}
-
-.seeMore:hover {
-    cursor: pointer;
-}
-
-.wrapper {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    flex-direction: column;
+.apps-details h4 {
+    margin-left: 1vh;
 }
 
 @media screen and (max-width: 900px) and (min-height: 500px) {
@@ -330,7 +312,7 @@
 
 @media screen and (max-height: 750px) {
     .card-container {
-        top: -18vh;
+        top: -16vh;
     }
     .card-price {
         font-size: 150%;
@@ -368,16 +350,12 @@
     }
 
     .bestOffer {
-        font-size: 0.8rem;
+        font-size: 60%;
     }
     .card-button {
         margin: 1vh;
         font-size: 60%;
     }
-    .card:nth-child(3) {
-        order: 2;
-    }
-
     .card:nth-child(3) {
         order: 2;
     }
