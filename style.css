@@ -159,7 +159,7 @@ body {
     margin: 4vh;
     background-color: white;
     min-height: 50%;
-    width: 50vh;
+    width: 45vh;
     border-radius: 10px;
     position: relative;
     box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.1);
@@ -292,7 +292,28 @@ small {
     margin-left: 1vh;
 }
 
-@media screen and (max-width: 900px) and (min-height: 500px) {
+@media screen and (max-height: 700px) and (max-width: 400px) {
+    .title {
+        font-size: 240%;
+    }
+    .title-2 {
+        font-size: 180%;
+    }
+
+    .rotate {
+        margin-top: 6vh;
+    }
+
+    .card:nth-child(1) {
+        order: 3;
+    }
+
+    .card:nth-child(3) {
+        order: 1;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-height: 900px) {
     .title {
         font-size: 240%;
     }
@@ -304,8 +325,7 @@ small {
         font-size: 250%;
     }
     .card-container {
-        top: -22vh;
-        padding: 2vh;
+        top: -18vh;
     }
 
     .card:nth-child(1) {
@@ -340,7 +360,7 @@ small {
     }
     .card-container {
         margin-top: 6%;
-        top: -130px;
+        top: -200px;
     }
 }
 
@@ -351,6 +371,10 @@ small {
     .card-title,
     .card-button {
         font-size: 135%;
+    }
+
+    .header-2 {
+        height: 130px;
     }
 
     .card-price {
