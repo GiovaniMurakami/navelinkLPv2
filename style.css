@@ -131,7 +131,7 @@
     color: #a59999;
 }
 
-.lines:before {
+.lines::before {
     content: "";
     display: block;
     width: 13vh;
@@ -347,6 +347,13 @@
 
     .card-speed {
         font-size: 1.7rem;
+    }
+    .lines::before {
+        left: 30px;
+    }
+
+    .lines::after {
+        right: 30px;
     }
 
     .bestOffer {
