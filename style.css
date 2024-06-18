@@ -49,6 +49,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
+    border-top: 6px solid lightblue;
     text-align: center;
     padding-top: 3vh;
 }
@@ -170,7 +171,7 @@ body {
     width: 45vh;
     border-radius: 10px;
     position: relative;
-    box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.3);
 }
 
 .bestOffer {
@@ -240,7 +241,6 @@ body {
 .card-price {
     text-align: center;
     color: #706969;
-    font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -298,6 +298,7 @@ body {
 .more-details p {
     text-align: center;
     margin: 2vh 0;
+    color: #706969;
     text-decoration: underline;
     font-size: 1rem;
 }
@@ -313,19 +314,24 @@ body {
 
 .apps-details {
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    margin-left: 20%;
     align-items: center;
-    flex-direction: column;
     margin-bottom: 1vh;
     color: #706969;
 }
 
-small {
-    margin-top: 0.5vh;
+.apps-details h4,
+.apps-details small {
+    margin-left: 1vh;
 }
 
-.apps-details h4 {
-    margin-left: 1vh;
+.icon {
+    font-size: 125%;
+}
+
+small {
+    margin-top: 0.5vh;
 }
 
 @media screen and (max-height: 780px) and (max-width: 400px) {
@@ -334,6 +340,10 @@ small {
     }
     .title-2 {
         font-size: 180%;
+    }
+
+    .apps-details {
+        margin-left: 10%;
     }
 
     .first,
@@ -420,10 +430,6 @@ small {
 
     .first,
     .second {
-        font-size: 70%;
-    }
-
-    .more-details p {
         font-size: 70%;
     }
 
