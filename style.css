@@ -44,7 +44,7 @@ body {
 
 .header-2 {
     height: 300px;
-    background-color: rgb(54, 87, 185);
+    background: linear-gradient(to right, rgb(47, 76, 163), #4169e1);
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -76,6 +76,13 @@ body {
     font-size: 30px;
     font-weight: 600;
     text-shadow: -5px 1px 5px rgba(32, 27, 27, 0.6);
+}
+
+.line {
+    width: 70%;
+    height: 2px;
+    margin-bottom: 2vh;
+    background-color: #a59999;
 }
 
 .speed-effect {
@@ -113,7 +120,7 @@ body {
 
 .card-container {
     position: relative;
-    top: -15vh;
+    top: -14vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -202,14 +209,26 @@ body {
 .apps-img-container {
     display: flex;
     width: 100%;
-    background-color: white;
     align-items: center;
+    padding: 10px;
+    margin: 2vh 0;
+    justify-content: space-evenly;
+}
+
+.teste {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle, #4169e1, #3d3c3a);
+    border-radius: 20%;
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .appLogo {
-    width: 45%;
+    width: 70%;
     height: auto;
+    padding: 5px;
 }
 
 .card-benefits {
@@ -220,8 +239,26 @@ body {
 .card-price {
     text-align: center;
     color: #706969;
-    font-weight: bold;
-    font-size: 1.75rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-price h2 {
+    font-size: 60px;
+    margin-left: 1vh;
+    margin-right: 0.5vh;
+}
+
+.first {
+    font-size: 120%;
+    text-align: right;
+}
+
+.second {
+    font-size: 120%;
+    text-align: left;
 }
 
 .card-button {
@@ -292,7 +329,7 @@ small {
     margin-left: 1vh;
 }
 
-@media screen and (max-height: 900px) and (max-width: 499px) {
+@media screen and (max-height: 780px) and (max-width: 400px) {
     .title {
         font-size: 220%;
     }
@@ -300,8 +337,18 @@ small {
         font-size: 180%;
     }
 
+    .first,
+    .second {
+        font-size: 80%;
+    }
+
+    .teste {
+        width: 80px;
+        height: 80px;
+    }
+
     .header-2 {
-        height: 235px;
+        height: 220px;
     }
 
     .card:nth-child(1) {
@@ -313,6 +360,7 @@ small {
     .title {
         font-size: 240%;
     }
+
     .title-2 {
         font-size: 180%;
     }
@@ -321,6 +369,10 @@ small {
     }
     .card-container {
         top: -18vh;
+    }
+
+    .line {
+        width: 88%;
     }
 
     .card:nth-child(1) {
@@ -341,7 +393,7 @@ small {
     }
 }
 
-@media screen and (min-width: 1000px) and (min-height: 720px) and (max-width: 1440px) {
+@media screen and (min-width: 900px) and (min-height: 720px) and (max-width: 1450px) {
     .title:nth-child(1) {
         margin-top: 1vh;
     }
@@ -357,30 +409,41 @@ small {
 @media only screen and (max-width: 950px) and (max-height: 500px) {
     .title,
     .title-2,
-    .city,
     .card-title,
-    .card-button {
+    .card-button,
+    .card-price h2 {
         font-size: 135%;
+    }
+
+    .header-1 {
+        height: 80px;
+    }
+
+    .city {
+        font-size: 100%;
+    }
+
+    .header-1 img {
+        height: 40px;
     }
 
     .header-2 {
         height: 130px;
     }
 
-    .card-price {
-        font-size: 90%;
-    }
-
     .card-speed {
         font-size: 1.7rem;
     }
-
     .lines::before {
         left: 30px;
     }
 
     .lines::after {
         right: 30px;
+    }
+
+    .line {
+        width: 100%;
     }
 
     .card-details {
