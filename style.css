@@ -75,7 +75,7 @@ body {
 
 .title-2 {
     color: rgb(43, 205, 255);
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 600;
     text-shadow: -5px 1px 5px rgba(32, 27, 27, 0.6);
 }
@@ -84,7 +84,7 @@ body {
     width: 70%;
     height: 2px;
     margin-bottom: 2vh;
-    background-color: #a59999;
+    background-color: #dfd7d7;
 }
 
 .speed-effect {
@@ -139,7 +139,7 @@ body {
 .lines {
     position: relative;
     font-size: 150%;
-    color: #a59999;
+    color: #dfd7d7;
 }
 
 .lines::before {
@@ -148,7 +148,7 @@ body {
     width: 13vh;
     height: 2px;
     position: absolute;
-    background: #a59999;
+    background: #dfd7d7;
     left: 4vh;
     top: 45%;
 }
@@ -159,7 +159,7 @@ body {
     width: 13vh;
     height: 2px;
     position: absolute;
-    background: #a59999;
+    background: #dfd7d7;
     right: 4vh;
     top: 45%;
 }
@@ -334,10 +334,11 @@ small {
     margin-top: 0.5vh;
 }
 
-@media screen and (max-height: 780px) and (max-width: 400px) {
+@media screen and (max-height: 850px) and (max-width: 400px) {
     .title {
-        font-size: 220%;
+        font-size: 210%;
     }
+
     .title-2 {
         font-size: 180%;
     }
