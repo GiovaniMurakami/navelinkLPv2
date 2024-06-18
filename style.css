@@ -212,7 +212,7 @@ body {
     align-items: center;
     padding: 10px;
     margin: 2vh 0;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .teste {
@@ -331,10 +331,10 @@ small {
 
 @media screen and (max-height: 780px) and (max-width: 400px) {
     .title {
-        font-size: 220%;
+        font-size: 200%;
     }
     .title-2 {
-        font-size: 180%;
+        font-size: 160%;
     }
 
     .first,
@@ -421,6 +421,20 @@ small {
 
     .city {
         font-size: 100%;
+    }
+
+    .teste {
+        width: 50px;
+        height: 50px;
+    }
+
+    .first,
+    .second {
+        font-size: 70%;
+    }
+
+    .line {
+        width: 50px;
     }
 
     .header-1 img {
