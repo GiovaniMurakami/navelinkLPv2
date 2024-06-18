@@ -243,6 +243,7 @@ body {
 .card-price {
     text-align: center;
     display: flex;
+    color: #3d3c3a;
     align-items: center;
     justify-content: center;
 }
