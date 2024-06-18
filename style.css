@@ -343,6 +343,10 @@ small {
         font-size: 180%;
     }
 
+    .card-container {
+        top: -13.5vh;
+    }
+
     .apps-details {
         margin-left: 10%;
     }
