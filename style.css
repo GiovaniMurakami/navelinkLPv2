@@ -332,6 +332,7 @@ small {
 @media screen and (max-height: 780px) and (max-width: 400px) {
     .title {
         font-size: 200%;
+        color: red;
     }
     .title-2 {
         font-size: 160%;
