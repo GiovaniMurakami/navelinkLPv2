@@ -23,7 +23,7 @@ body {
 
 .header-1 {
     height: 120px;
-    background: linear-gradient(to right, rgb(47, 76, 163), #2d539b);
+    background: linear-gradient(to left, #2a53e5, #072387);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,7 +44,7 @@ body {
 
 .header-2 {
     height: 300px;
-    background: linear-gradient(to right, rgb(47, 76, 163), #4169e1);
+    background: #002dab;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -404,6 +404,11 @@ small {
     }
     .card-speed {
         margin-top: 4vh;
+    }
+
+    .teste {
+        width: 85px;
+        height: 85px;
     }
     .card-container {
         margin-top: 6%;
