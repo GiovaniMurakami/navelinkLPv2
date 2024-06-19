@@ -169,7 +169,7 @@ body {
     margin: 4vh;
     background-color: white;
     min-height: 50%;
-    width: 45vh;
+    width: 40vh;
     border-radius: 10px;
     position: relative;
     box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.3);
@@ -353,7 +353,8 @@ small {
     }
 
     .first,
-    .second {
+    .second,
+    .more-details {
         font-size: 80%;
     }
 
@@ -422,7 +423,8 @@ small {
     .title-2,
     .card-title,
     .card-button,
-    .card-price h2 {
+    .card-price h2,
+    .more-details {
         font-size: 135%;
     }
 
