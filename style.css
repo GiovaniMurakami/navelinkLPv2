@@ -7,7 +7,6 @@
 
 body {
     -webkit-text-size-adjust: none;
-    background-color: white;
 }
 
 * {
@@ -124,7 +123,6 @@ body {
 .card-container {
     position: relative;
     top: -14vh;
-    background-color: white;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -216,12 +214,12 @@ body {
     align-items: center;
     padding: 10px;
     margin: 2vh 0;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .teste {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     background: radial-gradient(circle, #4169e1, #3d3c3a);
     border-radius: 20%;
     display: flex;
@@ -359,8 +357,8 @@ small {
     }
 
     .teste {
-        width: 80px;
-        height: 80px;
+        width: 50px;
+        height: 50px;
     }
 
     .header-2 {
@@ -409,8 +407,8 @@ small {
     }
 
     .teste {
-        width: 85px;
-        height: 85px;
+        width: 55px;
+        height: 55px;
     }
     .card-container {
         margin-top: 6%;
@@ -436,8 +434,8 @@ small {
     }
 
     .teste {
-        width: 45px;
-        height: 45px;
+        width: 40px;
+        height: 40px;
     }
 
     .first,
