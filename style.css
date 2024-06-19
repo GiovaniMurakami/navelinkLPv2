@@ -122,7 +122,7 @@ body {
 
 .card-container {
     position: relative;
-    top: -14vh;
+    top: -13vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
