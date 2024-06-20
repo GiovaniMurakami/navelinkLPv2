@@ -354,8 +354,12 @@ small {
 
     .first,
     .second,
-    .more-details {
-        font-size: 70%;
+    .more-details p,
+    .app-details-text h4,
+    .app-details-text small,
+    .icon,
+    .apps-details h4 {
+        font-size: 80%;
     }
 
     .teste {
