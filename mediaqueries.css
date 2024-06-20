@@ -92,7 +92,7 @@
     .card-button,
     .card-price h2,
     .more-details {
-        font-size: 135%;
+        font-size: 130%;
     }
 
     .header-1 {
@@ -109,8 +109,17 @@
     }
 
     .first,
-    .second {
-        font-size: 70%;
+    .second,
+    .more-details p,
+    .app-details-text h4,
+    .app-details-text small,
+    .icon,
+    .apps-details h4 {
+        font-size: 65%;
+    }
+
+    .card-benefits h4 {
+        font-size: 80%;
     }
 
     .line {
@@ -137,7 +146,7 @@
     }
 
     .line {
-        width: 100%;
+        width: 90%;
     }
 
     .card-details {
