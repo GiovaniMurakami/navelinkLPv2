@@ -1,4 +1,4 @@
-@media screen and (max-height: 850px) and (max-width: 400px) {
+@media screen and (max-height: 850px) and (max-width: 600px) {
     .title {
         font-size: 210%;
     }
@@ -37,9 +37,19 @@
     .card:nth-child(1) {
         order: 3;
     }
+
+    .benefits-title {
+        font-size: 50%;
+        margin: 4vh 0;
+    }
+
+    .benefits-header h3 {
+        font-size: 70%;
+        margin: 0 2vh;
+    }
 }
 
-@media screen and (max-width: 900px) and (min-height: 900px) {
+@media screen and (max-width: 900px) and (min-height: 850px) {
     .title {
         font-size: 240%;
     }
@@ -65,6 +75,11 @@
         font-size: 80%;
         text-align: center;
     }
+
+    .benefits-title {
+        font-size: 75%;
+        margin-top: 10%;
+    }
 }
 
 @media screen and (min-width: 900px) and (min-height: 720px) and (max-width: 1450px) {
@@ -79,6 +94,7 @@
         width: 55px;
         height: 55px;
     }
+
     .card-container {
         margin-top: 6%;
         top: -200px;
@@ -163,5 +179,9 @@
     }
     .card:nth-child(3) {
         order: 2;
+    }
+
+    .benefits-title {
+        margin-top: 4vh;
     }
 }
