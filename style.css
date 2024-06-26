@@ -125,7 +125,7 @@ body {
     position: relative;
     top: -13vh;
     display: flex;
-    margin-bottom: -50px;
+    margin-bottom: -75px;
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
@@ -337,13 +337,14 @@ small {
 }
 
 .benefits {
-    min-height: 400px;
+    min-height: 30vh;
     background: linear-gradient(to bottom, #2a53e5, #021044);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-bottom: 2vh;
+    padding: 2vh;
 }
 
 .switch > .hidden-toggle {

@@ -77,7 +77,7 @@
     }
 
     .benefits-title {
-        font-size: 75%;
+        font-size: 70%;
         margin-top: 10%;
     }
 }
@@ -130,8 +130,15 @@
     .app-details-text h4,
     .app-details-text small,
     .icon,
-    .apps-details h4 {
+    .apps-details h4,
+    .benefits-title,
+    .benefits-header h3 {
         font-size: 65%;
+    }
+
+    .card-advantages p,
+    .card-advantages h4 {
+        font-size: 100%;
     }
 
     .card-benefits h4 {
