@@ -125,7 +125,7 @@ body {
     position: relative;
     top: -13vh;
     display: flex;
-    margin-bottom: -75px;
+    margin-bottom: -50px;
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
@@ -462,4 +462,95 @@ small {
 
 .card-advantages p {
     font-size: 1.2rem;
+}
+
+.client-feedback {
+    min-height: 250px;
+    display: flex;
+    color: #706969;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.client-feedback-title {
+    margin: 2vh;
+    display: flex;
+    text-align: center;
+}
+
+.client-feedback-container {
+    display: flex;
+    margin: 2vh;
+    justify-content: center;
+    align-items: center;
+    gap: 4vh;
+    margin-top: 2%;
+}
+
+.client-feedback-card {
+    display: flex;
+    max-width: 30%;
+}
+
+.client-feedback-message {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 2vh;
+    font-size: 1.2rem;
+}
+
+.client-feedback .client-feedback-card .client-photo img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.client-feedback-message p {
+    font-weight: 300;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.client-name {
+    font-weight: bold;
+}
+
+footer {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1vh;
+    padding: 2vh;
+    background-color: #002dab;
+}
+
+.social-media {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.terms {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5vh;
+}
+
+.terms a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.terms a:hover,
+.social-media i:hover {
+    color: #d68409;
 }

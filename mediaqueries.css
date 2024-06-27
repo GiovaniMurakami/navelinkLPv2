@@ -47,6 +47,18 @@
         font-size: 70%;
         margin: 0 2vh;
     }
+    .client-feedback-container {
+        flex-direction: column;
+        padding: 2vh;
+    }
+
+    .client-feedback-card {
+        min-width: 100%;
+    }
+
+    .client-feedback-message {
+        gap: 1vh;
+    }
 }
 
 @media screen and (max-width: 900px) and (min-height: 850px) {
@@ -80,6 +92,18 @@
         font-size: 70%;
         margin-top: 10%;
     }
+    .client-feedback-container {
+        flex-direction: column;
+        padding: 2vh;
+    }
+
+    .client-feedback-card {
+        min-width: 100%;
+    }
+
+    .client-feedback-message {
+        gap: 1vh;
+    }
 }
 
 @media screen and (min-width: 900px) and (min-height: 720px) and (max-width: 1450px) {
@@ -98,6 +122,13 @@
     .card-container {
         margin-top: 6%;
         top: -200px;
+    }
+    .client-feedback-container {
+        flex-direction: column;
+    }
+
+    .client-feedback-card {
+        min-width: 60%;
     }
 }
 
@@ -190,5 +221,13 @@
 
     .benefits-title {
         margin-top: 4vh;
+    }
+    .client-feedback-container {
+        flex-direction: column;
+        padding: 2vh;
+    }
+
+    .client-feedback-card {
+        min-width: 80%;
     }
 }
