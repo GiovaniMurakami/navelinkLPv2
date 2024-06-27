@@ -8,11 +8,11 @@
     }
 
     .card-container {
-        top: -11vh;
+        top: -100px;
     }
 
     .rotate {
-        margin-top: 1vh;
+        margin-top: 5%;
     }
 
     .apps-details {
@@ -70,15 +70,21 @@
 
 @media screen and (max-width: 900px) and (min-height: 850px) {
     .title {
-        font-size: 240%;
+        font-size: 260%;
     }
 
     .title-2 {
         font-size: 180%;
     }
+
     .card-speed {
         margin-top: 3vh;
     }
+
+    .rotate {
+        margin-top: 5%;
+    }
+
     .card-container {
         top: -18vh;
     }
@@ -117,6 +123,11 @@
     .title:nth-child(1) {
         margin-top: 1vh;
     }
+
+    .title {
+        font-size: 320%;
+    }
+
     .card-speed {
         margin-top: 4vh;
     }
