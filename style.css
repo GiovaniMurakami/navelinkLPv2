@@ -175,7 +175,7 @@ body {
     margin: 4vh;
     background-color: white;
     min-height: 50%;
-    width: 40vh;
+    width: 42vh;
     border-radius: 10px;
     position: relative;
     box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.3);
@@ -450,7 +450,7 @@ small {
 
 .card-advantages {
     color: white;
-    width: 300px;
+    width: 275px;
     min-height: 150px;
     padding: 1.5vh;
     text-align: center;
@@ -552,6 +552,7 @@ footer {
     font-size: 2rem;
     font-weight: bold;
     color: white;
+    margin-bottom: 0.5vh;
 }
 
 .terms {

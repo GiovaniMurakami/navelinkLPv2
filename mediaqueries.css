@@ -242,6 +242,7 @@
     }
     .client-feedback-container {
         flex-direction: column;
+        align-items: center;
         padding: 2vh;
     }
 
