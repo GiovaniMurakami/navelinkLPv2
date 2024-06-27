@@ -63,6 +63,9 @@
     .client-feedback-message {
         gap: 1vh;
     }
+    .benefits-title h1 {
+        font-size: 80%;
+    }
 }
 
 @media screen and (max-width: 900px) and (min-height: 850px) {
@@ -93,7 +96,7 @@
     }
 
     .benefits-title {
-        font-size: 70%;
+        font-size: 65%;
         margin-top: 10%;
     }
     .client-feedback-container {
