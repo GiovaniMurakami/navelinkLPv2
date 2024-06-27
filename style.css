@@ -454,6 +454,13 @@ small {
     flex-direction: column;
 }
 
+.img-benefits {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 2vh;
+    color: white;
+}
+
 .card-advantages h4 {
     font-size: 1.5rem;
     margin-bottom: 1vh;
