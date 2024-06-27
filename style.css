@@ -128,7 +128,7 @@ body {
 
 .card-container {
     position: relative;
-    top: -13vh;
+    top: -12.5vh;
     display: flex;
     margin-bottom: -50px;
     justify-content: center;
@@ -570,4 +570,5 @@ footer {
 .terms a:hover,
 .social-media i:hover {
     color: #d68409;
+    cursor: pointer;
 }
