@@ -400,8 +400,10 @@
                 var cardDetails = element.nextElementSibling;
                 if (cardDetails.style.display === "block") {
                     cardDetails.style.display = "none";
+                    element.innerHTML = "<p>MAIS DETALHES</p>";
                 } else {
                     cardDetails.style.display = "block";
+                    element.innerHTML = "<p>MENOS DETALHES</p>";
                 }
             }
         </script>
