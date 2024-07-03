@@ -124,7 +124,7 @@ body {
     position: relative;
     top: -12.5vh;
     display: flex;
-    margin-bottom: -50px;
+    margin-bottom: -60px;
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
@@ -175,7 +175,6 @@ body {
 .card {
     margin: 4vh;
     background-color: white;
-    min-height: 50%;
     width: 42vh;
     border-radius: 10px;
     position: relative;
@@ -193,7 +192,6 @@ body {
     align-items: center;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    border: none;
     background-color: #f8d313;
     color: white;
     font-weight: bold;
@@ -211,7 +209,7 @@ body {
 
 .card-speed {
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 3.2rem;
     text-align: center;
     margin-top: 10%;
 }
@@ -493,8 +491,8 @@ small {
     display: flex;
     margin: 3vh 2vh;
     justify-content: center;
+    gap: 25vh;
     align-items: flex-start;
-    gap: 4vh;
     margin-top: 2%;
 }
 
