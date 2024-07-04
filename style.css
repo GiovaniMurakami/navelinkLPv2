@@ -95,12 +95,12 @@ body {
         -32px 0px 2px rgba(220, 220, 220, 0.05),
         -34px 0px 2px rgba(220, 220, 220, 0.04),
         -36px 0px 2px rgba(220, 220, 220, 0.03),
-        -48px 0px 2px rgba(220, 220, 220, 0.025),
-        -42px 0px 2px rgba(220, 220, 220, 0.02),
-        -44px 0px 2px rgba(220, 220, 220, 0.019),
-        -46px 0px 2px rgba(220, 220, 220, 0.018),
-        -48px 0px 2px rgba(220, 220, 220, 0.017),
-        -50px 0px 2px rgba(220, 220, 220, 0.016),
+        -38px 0px 2px rgba(220, 220, 220, 0.025),
+        -40px 0px 2px rgba(220, 220, 220, 0.02),
+        -42px 0px 2px rgba(220, 220, 220, 0.019),
+        -44px 0px 2px rgba(220, 220, 220, 0.018),
+        -46px 0px 2px rgba(220, 220, 220, 0.017),
+        -48px 0px 2px rgba(220, 220, 220, 0.016),
         -50px 0px 2px rgba(220, 220, 220, 0.015),
         -52px 0px 2px rgba(220, 220, 220, 0.014),
         -54px 0px 2px rgba(220, 220, 220, 0.013),
@@ -122,7 +122,7 @@ body {
 /* CARD RELATIVES */
 .card-container {
     position: relative;
-    top: -12.5vh;
+    top: -11vh;
     display: flex;
     margin-bottom: -50px;
     justify-content: center;
